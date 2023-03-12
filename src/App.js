@@ -11,7 +11,7 @@ const playerStyle = {
     width: "100%",
     height: "100%",
     display: "block",
-    animation: "fadein 5s"
+    animation: "fadein 2s"
   },
   O: {
     backgroundImage: "url('casper.png')",
@@ -19,7 +19,7 @@ const playerStyle = {
     width: "100%",
     height: "100%",
     display: "block",
-    animation: "fadein 5s"
+    animation: "fadein 2s"
   }
 }
 
