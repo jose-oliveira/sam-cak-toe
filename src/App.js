@@ -9,13 +9,17 @@ const playerStyle = {
     backgroundImage: "url('sam.png')",
     backgroundRepeat: "round",
     width: "100%",
-    height: "100%"
+    height: "100%",
+    display: "block",
+    animation: "fadein 5s"
   },
   O: {
     backgroundImage: "url('casper.png')",
     backgroundRepeat: "round",
     width: "100%",
-    height: "100%"
+    height: "100%",
+    display: "block",
+    animation: "fadein 5s"
   }
 }
 
@@ -88,7 +92,7 @@ const Square = React.memo(({ status, rowIndex, cellIndex, onSet }) => {
       else onSet(rowIndex, cellIndex);
     }}
   >
-    <div style={playerStyle[status]}></div>
+    <div style={playerStyle[status] ? playerStyle[status] : {display: "none"}}></div>
   </div>
 )});
 
