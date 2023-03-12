@@ -6,13 +6,13 @@ const rowStyle = {
 
 const playerStyle = {
   X: {
-    backgroundImage: "url('/sam.png')",
+    backgroundImage: "url('sam.png')",
     backgroundRepeat: "round",
     width: "100%",
     height: "100%"
   },
   O: {
-    backgroundImage: "url('/casper.png')",
+    backgroundImage: "url('casper.png')",
     backgroundRepeat: "round",
     width: "100%",
     height: "100%"
@@ -49,11 +49,11 @@ const containerStyle = {
 
 const winnerStyle = {
   X: {
-    backgroundImage: "url('/sam.png')",
+    backgroundImage: "url('sam.png')",
     ...containerStyle
   },
   O: {
-    backgroundImage: "url('/casper.png')",
+    backgroundImage: "url('casper.png')",
     ...containerStyle
   }
 }
